@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/accessibility"
+        android:icon="@drawable/outline_accessibility_24"
+        android:title="Accesibility"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/eye"
+        android:icon="@drawable/eye_open"
+        android:title="Show"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/about"
+        android:title="About" />
+    <item
+        android:id="@+id/close"
+        android:title="Close" />
+</menu>

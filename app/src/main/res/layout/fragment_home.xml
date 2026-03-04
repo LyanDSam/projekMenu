@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="40dp"
+                android:paddingTop="40dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gambar Publik"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/image1sec1"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_margin="10dp"
+                                android:background="#797979" />
+
+                            <ImageView
+                                android:id="@+id/image2sec1"
+
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_margin="10dp"
+                                android:background="#797979" />
+
+                            <ImageView
+                                android:id="@+id/image3sec1"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_margin="10dp"
+                                android:background="#797979" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fanmade"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/image1sec2"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_margin="10dp"
+                                android:background="#797979" />
+
+                            <ImageView
+                                android:id="@+id/image2sec2"
+
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_margin="10dp"
+                                android:background="#797979" />
+
+                            <ImageView
+                                android:id="@+id/image3sec2"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_margin="10dp"
+                                android:background="#797979" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ini Juga"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/image1sec3"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_margin="10dp"
+                                android:background="#797979" />
+
+                            <ImageView
+                                android:id="@+id/image2sec3"
+
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_margin="10dp"
+                                android:background="#797979" />
+
+                            <ImageView
+                                android:id="@+id/image3sec3"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:layout_margin="10dp"
+                                android:background="#797979" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="1dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:background="#81000000"
+                        android:elevation="9999dp"
+                        android:gravity="center"
+                        android:text="I LOVE KAISEN"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/ads"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#797979"
+                        android:scaleType="centerCrop" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</FrameLayout>
