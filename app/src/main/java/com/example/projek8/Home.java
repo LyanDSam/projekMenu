@@ -87,15 +87,6 @@ public class Home extends Fragment {
         Random random = new Random();
         String url;
 
-//        for (int i = 0; i < imageIds.length; i++){
-//            ImageView imageViews = view.findViewById(imageIds[i]);
-//            int randomNumber = random.nextInt(1000);
-//            url = "https://picsum.photos/300/300?random=" + randomNumber;
-//            Glide.with(this)
-//                    .load(url)
-//                    .into(imageViews);
-//        }
-
         OkHttpClient client = new OkHttpClient();
         String apiUrl = "https://safebooru.org/index.php?page=dapi&s=post&q=index&tags=jujutsu_kaisen&json=1";
 
